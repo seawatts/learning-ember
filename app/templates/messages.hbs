@@ -1,0 +1,18 @@
+<ul>
+  {{#each message in this}}
+    {{#link-to 'message' message}}
+      {{message.id}}
+    {{/link-to}}
+    <li>
+      <div>
+        From {{message.from}} - To:{{message.to}}
+      </div>
+      <div>
+        {{message.body}}
+      </div>
+    </li>
+    <br/>
+  {{/each}}
+</ul>
+
+{{outlet}}
