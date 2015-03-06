@@ -35,8 +35,8 @@
     "ember-export-application-global": "^1.0.2",
     "express": "^4.8.5",
     "glob": "^4.0.5",
+    "liquid-fire": "git://github.com/ef4/liquid-fire.git#aa3b18256eaa9be5180717c1ed89725d8ed8ed91",
     "http-proxy": "^1.8.1",
-    "liquid-fire": "^0.18.0",
     "morgan": "^1.5.1"
   }
 }

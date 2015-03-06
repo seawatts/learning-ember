@@ -5,6 +5,7 @@ var EmberApp = require('ember-cli/lib/broccoli/ember-app');
 var app = new EmberApp();
 // Use `app.import` to add additional libraries to the generated
 app.import('bower_components/bootstrap/dist/css/bootstrap.css');
+app.import('bower_components/bootstrap/dist/js/bootstrap.js');
 app.import('bower_components/font-awesome/css/font-awesome.css');
 // output files.
 //
