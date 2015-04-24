@@ -2,10 +2,11 @@
 title: Learn all the things
 email: chris.watts.t@gmail.com
 description: This is a blog for learning about Ember.js
-baseurl: "" # the subpath of your site, e.g. /blog/
+baseurl: "/learning-ember" # the subpath of your site, e.g. /blog/
 url: "http://seawatts.com" # the base hostname & protocol for your site
 twitter_username: seawatts
 github_username: seawatts
+
 
 # Build settings
 markdown: kramdown
