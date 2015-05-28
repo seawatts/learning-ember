@@ -1,8 +1,8 @@
-title: Long Haul
-description: Long Form Jekyll theme built with SASS / COMPASS / SUSY
+title: Learning Ember
+description: A series of blogs written about the Ember.js framework
 
-url: http://brianmaierjr.github.com/long-haul
-baseurl: ""
+url: http://seawatts.github.io/learning-ember
+baseurl: "learning-ember"
 paginate_path: "blog/page:num/"
 permalink: blog/:title/
 
@@ -14,14 +14,13 @@ navigation:
  - title: Home
    url: /index.html
  - title: About
-   url: /about
+   url: http://seawatts.github.io
  - title: Contact
-   url: /contact
+   url: http://seawatts.github.io/#contact
 
 social:
-   github: brianmaierjr
-   twitter: brianmaierjr
-   facebook: brianmaierjr
-   email: brimaidesigns@gmail.com
+   github: seawatts
+   twitter: seawatts
+   email: chris.watts.t@gmail.com
 
-google_analytics: "UA-58263416-1"
+google_analytics: "UA-63487336-1"
