@@ -2,7 +2,7 @@ title: Learning Ember
 description: A series of blogs written about the Ember.js framework
 
 url: http://seawatts.github.io
-baseurl: "learning-ember"
+baseurl: ""
 paginate_path: "blog/page:num/"
 permalink: blog/:title/
 
