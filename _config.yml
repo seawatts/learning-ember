@@ -1,12 +1,27 @@
-# Site settings
-title: Learn all the things
-email: chris.watts.t@gmail.com
-description: This is a blog for learning about Ember.js
-baseurl: "/learning-ember" # the subpath of your site, e.g. /blog/
-url: "http://seawatts.com" # the base hostname & protocol for your site
-twitter_username: seawatts
-github_username: seawatts
+title: Long Haul
+description: Long Form Jekyll theme built with SASS / COMPASS / SUSY
 
+url: http://brianmaierjr.github.com/long-haul
+baseurl: ""
+paginate_path: "blog/page:num/"
+permalink: blog/:title/
 
-# Build settings
-markdown: kramdown
+markdown: redcarpet
+highlighter: pygments
+paginate: 5
+
+navigation:
+ - title: Home
+   url: /index.html
+ - title: About
+   url: /about
+ - title: Contact
+   url: /contact
+
+social:
+   github: brianmaierjr
+   twitter: brianmaierjr
+   facebook: brianmaierjr
+   email: brimaidesigns@gmail.com
+
+google_analytics: "UA-58263416-1"
